@@ -1,4 +1,4 @@
-name: Release Magisk modules
+name: Release Magisk module LTE
 
 on:
   workflow_dispatch:
