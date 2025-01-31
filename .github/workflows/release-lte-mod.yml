@@ -1,0 +1,36 @@
+name: Release Magisk modules
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Get date
+        id: date
+        run: echo "VERSION=v$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Zip folder1
+        working-directory: ./
+        run: |
+          cd p9_lte_combos_mod
+          zip -r ../p9_lte_combos_mod.zip ./*
+          cd ..
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          draft: false
+          prerelease: false
+          files: |
+            p9_lte_combos_mod.zip
