@@ -15,7 +15,7 @@ jobs:
         id: date
         run: echo "VERSION=v$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
-      - name: Zip folder1
+      - name: Zip folder
         working-directory: ./
         run: |
           cd p9_lte_combos_mod
