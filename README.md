@@ -1,4 +1,5 @@
 ## [Check Releases for Magisk modules](https://github.com/high3eam/pixel9-EU-combos/releases)
+### Module includes a built-in updater
 ## Edit combos yourself
 - Download [`protoc`](https://github.com/protocolbuffers/protobuf/releases) as well as the ShannonUeCap `.proto template` files from this repo.
 - Then use protoc to decode the protobuf binary file.
