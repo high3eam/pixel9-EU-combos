@@ -1,1 +1,4 @@
 
+## v37
+- Added 32A+20A+7A+3C LTE-CA combos
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=3277c022-ba8e-4eed-96da-f2c58a6fa91a](https://uecaps.hennes.xyz/view/multi/?id=02a0527b-48f7-4859-9e39-3c035ba2c350)
