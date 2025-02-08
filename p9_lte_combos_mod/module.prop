@@ -1,7 +1,7 @@
 id=custom_lte_p9_tokay
 name=Pixel 9 custom LTE uecap
-version=35
-versionCode=35
+version=37
+versionCode=37
 author=high3eam
 description=replaces lte uecaps binarypb with custom one for added lowband ca
 updateJson=https://raw.githubusercontent.com/high3eam/pixel9-EU-combos/main/updaterLTE.json
