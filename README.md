@@ -1,6 +1,6 @@
 ## [Check Releases for Magisk modules](https://github.com/high3eam/pixel9-EU-combos/releases)
 ## Edit combos yourself
-- Download [`protoc`](https://github.com/protocolbuffers/protobuf/releases) as well as the ShannonUeCap [`.proto template`](https://github.com/handymenny/uecapabilityparser/tree/main/src/main/resources/definition) files from the [uecapabilityparser repository](https://github.com/handymenny/uecapabilityparser).
+- Download [`protoc`](https://github.com/protocolbuffers/protobuf/releases) as well as the ShannonUeCap `.proto template` files from this repo.
 - Then use protoc to decode the protobuf binary file.
 For NR combos, use:
 ```sh
