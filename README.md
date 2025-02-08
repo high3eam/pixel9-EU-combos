@@ -1,1 +1,24 @@
-## Check Releases for Magisk modules
+## [Check Releases for Magisk modules](https://github.com/high3eam/pixel9-EU-combos/releases)
+## Edit combos yourself
+- Download [`protoc`](https://github.com/protocolbuffers/protobuf/releases) as well as the ShannonUeCap [`.proto template`](https://github.com/handymenny/uecapabilityparser/tree/main/src/main/resources/definition) files from the [uecapabilityparser repository](https://github.com/handymenny/uecapabilityparser).
+- Then use protoc to decode the protobuf binary file.
+For NR combos, use:
+```sh
+protoc --decode=ShannonNrUECap ShannonNrUeCap.proto < PLATFORM_11376227466629817631.binarypb > decoded.txt
+```
+For LTE combos, use:
+```sh
+protoc --decode=ShannonLteUECap ShannonLteUeCap.proto < lte_2160127815.binarypb > decoded.txt
+```
+Then, edit, add or delete combos as you like.
+
+After that, recompile to protobuf binary.
+
+For NR combos, use:
+```sh
+protoc --encode=ShannonNrUECap ShannonNrUeCap.proto < decoded.txt > PLATFORM_11376227466629817631.binarypb
+```
+For LTE combos, use:
+```sh
+protoc --encode=ShannonLteUECap ShannonLteUeCap.proto < decoded.txt > lte_2160127815.binarypb
+```
