@@ -27,7 +27,7 @@ jobs:
         working-directory: ./
         run: |
           cd p9_lte_combos_mod
-          zip -r ../p9_lte_combos_mod.zip ./*
+          zip -r ../p9_lte_combos_mod_v{{ env.MOD_VERSION }}.zip ./*
           cd ..
 
       - name: Create Release
@@ -41,7 +41,7 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            p9_lte_combos_mod.zip
+            p9_lte_combos_mod_v{{ env.MOD_VERSION }}.zip
 
       - name: Update updater JSON
         run: |
@@ -49,7 +49,7 @@ jobs:
           {
             "version": "${{ env.MOD_VERSION }}",
             "versionCode": ${{ env.MOD_VERSIONCODE }},
-            "zipUrl": "https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/p9_lte_combos_mod.zip",
+            "zipUrl": "https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/p9_lte_combos_mod_v{{ env.MOD_VERSION }}.zip",
             "changelog": "https://raw.githubusercontent.com/high3eam/pixel9-EU-combos/main/changelog.md"
           }
           EOF
