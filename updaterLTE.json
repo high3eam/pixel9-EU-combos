@@ -1,6 +1,6 @@
 {
   "version": "37",
   "versionCode": 37,
-  "zipUrl": "https://github.com/high3eam/pixel9-EU-combos/releases/download/LTE-v37/p9_lte_combos_mod_v{{ env.MOD_VERSION }}.zip",
+  "zipUrl": "https://github.com/high3eam/pixel9-EU-combos/releases/download/LTE-v37/p9_lte_combos_mod_v37.zip",
   "changelog": "https://raw.githubusercontent.com/high3eam/pixel9-EU-combos/main/changelog-LTE.md"
 }
