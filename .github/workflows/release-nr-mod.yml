@@ -1,4 +1,5 @@
 name: Release Magisk module NR
+
 on:
   workflow_dispatch:
 
@@ -16,6 +17,14 @@ jobs:
       - name: Get date
         id: date
         run: echo "VERSION=v$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Read module.prop
+        id: module_prop
+        run: |
+          VERSION=$(grep "version=" p9_nr_platform_mod/module.prop | cut -d= -f2)
+          VERSIONCODE=$(grep "versionCode=" p9_nr_platform_mod/module.prop | cut -d= -f2)
+          echo "MOD_VERSION=$VERSION" >> $GITHUB_ENV
+          echo "MOD_VERSIONCODE=$VERSIONCODE" >> $GITHUB_ENV
 
       - name: Zip folder
         working-directory: ./
@@ -36,3 +45,22 @@ jobs:
           prerelease: false
           files: |
             p9_nr_platform_mod.zip
+
+      - name: Update updater JSON
+        run: |
+          cat > updaterNR.json << EOF
+          {
+            "version": "${{ env.MOD_VERSION }}",
+            "versionCode": ${{ env.MOD_VERSIONCODE }},
+            "zipUrl": "https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}/p9_nr_platform_mod.zip",
+            "changelog": "https://github.com/${{ github.repository }}/releases/tag/${{ env.VERSION }}"
+          }
+          EOF
+
+      - name: Commit and push updater JSON
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add updaterNR.json
+          git commit -m "Update updaterNR.json for version ${{ env.MOD_VERSION }}"
+          git push
