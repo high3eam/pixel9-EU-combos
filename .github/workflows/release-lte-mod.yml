@@ -50,7 +50,7 @@ jobs:
             "version": "${{ env.MOD_VERSION }}",
             "versionCode": ${{ env.MOD_VERSIONCODE }},
             "zipUrl": "https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/p9_lte_combos_mod_v${{ env.MOD_VERSION }}.zip",
-            "changelog": "https://raw.githubusercontent.com/high3eam/pixel9-EU-combos/main/changelog-LTE.md"
+            "changelog": "https://raw.githubusercontent.com/${{ github.repository }}/main/changelog-LTE.md"
           }
           EOF
 
