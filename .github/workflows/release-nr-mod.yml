@@ -61,3 +61,19 @@ jobs:
           git add updaterNR.json
           git commit -m "Update updaterNR.json for version ${{ env.MOD_VERSION }}"
           git push
+
+      - name: Send to Telegram
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID_1: ${{ secrets.TELEGRAM_CHAT_ID_1_GROUP }}
+          CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+        run: |
+          # Send to first chat
+          curl -F document=@"p9_nr_platform_mod_v${{ env.MOD_VERSION }}.zip" \
+          -F caption="New NR Module Release ${{ env.RELEASE_TAG }}" \
+          "https://api.telegram.org/bot${BOT_TOKEN}/sendDocument?chat_id=${CHAT_ID_1}"
+          
+          # Send to second chat
+          curl -F document=@"p9_nr_platform_mod_v${{ env.MOD_VERSION }}.zip" \
+          -F caption="New NR Module Release ${{ env.RELEASE_TAG }}" \
+          "https://api.telegram.org/bot${BOT_TOKEN}/sendDocument?chat_id=${CHAT_ID_2}"
