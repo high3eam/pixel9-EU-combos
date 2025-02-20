@@ -1,7 +1,7 @@
 id=custom_platform_p9_tokay
 name=Pixel 9 custom uecap platform 2CC 3CC FDD NRULCA NR UL MIMO
-version=26
-versionCode=26
+version=27
+versionCode=27
 author=high3eam
 description=replaces default platform binarypb with custom one, 2CC 3CC FDD NRULCA and FDD NR UL MIMO
 updateJson=https://raw.githubusercontent.com/high3eam/pixel9-EU-combos/main/updaterNR.json
