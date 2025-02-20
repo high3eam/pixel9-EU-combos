@@ -1,4 +1,7 @@
 
+## v26
+- Add EN-DC combos: + 32A+20A+3A_n28A+n1A (20_n1 UL) + 32A+20A_n28A+n1A (20_n1 UL) + 20A+3A_n28A+n1A (20_n1 UL) + 20A_n28A+n1A (20_n1 UL)
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=c7386325-79d8-4949-8dc2-a4c198f73cb0](https://uecaps.hennes.xyz/view/multi/?id=c7386325-79d8-4949-8dc2-a4c198f73cb0)
 ## v25
 - Add EN-DC combos: 20A+8A+7A+3A+1A_n78A & 28A+20A+7A+3A+1A_n78A
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=29ee1dc7-b1a8-4ba5-acc9-ca76efd71116](https://uecaps.hennes.xyz/view/multi/?id=29ee1dc7-b1a8-4ba5-acc9-ca76efd71116)
