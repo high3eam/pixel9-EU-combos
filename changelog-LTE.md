@@ -1,4 +1,7 @@
 
+## v41
+- Added interband ULCA for combos 32A+8A+7A+3C, 20A+8A+7A+3C and 32A+20A+7A+3C
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=24d0b9ab-70e6-4ab5-8b7e-6627e007c73e](https://uecaps.hennes.xyz/view/multi/?id=24d0b9ab-70e6-4ab5-8b7e-6627e007c73e)
 ## v40
 - Added interband UL-CA combos for 32A+20A+8A+3C
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=30b0294d-a7e2-41b8-84ce-0aacdeb28c53](https://uecaps.hennes.xyz/view/multi/?id=30b0294d-a7e2-41b8-84ce-0aacdeb28c53)
