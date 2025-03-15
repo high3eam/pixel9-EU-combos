@@ -1,4 +1,7 @@
 
+## v28
+- Attempt to fix NR-SA FDD UL MIMO (n1, n3)
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=2f4c5473-c26e-47a2-9ff2-cacd9ec87532](https://uecaps.hennes.xyz/view/multi/?id=2f4c5473-c26e-47a2-9ff2-cacd9ec87532)
 ## v27
 - Remove all EN-DC combos with 20_n1 EN-DC UL and n28 (these result in RLF)
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=99c8d9de-3544-44c3-aa1c-bf4e26a35382](https://uecaps.hennes.xyz/view/multi/?id=99c8d9de-3544-44c3-aa1c-bf4e26a35382)
