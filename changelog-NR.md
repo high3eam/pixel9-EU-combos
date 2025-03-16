@@ -1,4 +1,7 @@
 
+## v29
+- Add NR FDD UL MIMO to 2x and 3xCA combos used in Germany: n28-n3, n78-n3, n78-n28-n3, n28-n1, n78-n1, n78-n28-n1
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=d22ba6f9-f23b-4a98-820b-e6969a6784c8](https://uecaps.hennes.xyz/view/multi/?id=d22ba6f9-f23b-4a98-820b-e6969a6784c8)
 ## v28
 - Attempt to fix NR-SA FDD UL MIMO (n1, n3)
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=2f4c5473-c26e-47a2-9ff2-cacd9ec87532](https://uecaps.hennes.xyz/view/multi/?id=2f4c5473-c26e-47a2-9ff2-cacd9ec87532)
