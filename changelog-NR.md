@@ -1,4 +1,7 @@
 
+## v31
+- Adding some EN-DC test combos with n78-n28-n1
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=1cfacf14-34c0-46d7-b8e0-53cdbc397514](https://uecaps.hennes.xyz/view/multi/?id=1cfacf14-34c0-46d7-b8e0-53cdbc397514)
 ## v30
 - Testing EN-DC with 3CC NR (n78-n28-n3)
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=9ff1e2cb-bafe-4679-b3ac-405f39b1600b](https://uecaps.hennes.xyz/view/multi/?id=9ff1e2cb-bafe-4679-b3ac-405f39b1600b)
