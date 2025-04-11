@@ -1,4 +1,7 @@
 
+## v32
+- Removed incompatible combos with 20_n1 and 20_n78 EN-DC UL (to prevent RLF)
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=5d69e423-612c-4b33-b542-4c01d46af65c](https://uecaps.hennes.xyz/view/multi/?id=5d69e423-612c-4b33-b542-4c01d46af65c)
 ## v31
 - Adding some EN-DC test combos with n78-n28-n1
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=1cfacf14-34c0-46d7-b8e0-53cdbc397514](https://uecaps.hennes.xyz/view/multi/?id=1cfacf14-34c0-46d7-b8e0-53cdbc397514)
