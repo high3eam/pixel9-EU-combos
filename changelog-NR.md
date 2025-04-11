@@ -1,4 +1,7 @@
 
+## v30
+- Testing EN-DC with 3CC NR (n78-n28-n3)
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=9ff1e2cb-bafe-4679-b3ac-405f39b1600b](https://uecaps.hennes.xyz/view/multi/?id=9ff1e2cb-bafe-4679-b3ac-405f39b1600b)
 ## v29
 - Add NR FDD UL MIMO to 2x and 3xCA combos used in Germany: n28-n3, n78-n3, n78-n28-n3, n28-n1, n78-n1, n78-n28-n1
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=d22ba6f9-f23b-4a98-820b-e6969a6784c8](https://uecaps.hennes.xyz/view/multi/?id=d22ba6f9-f23b-4a98-820b-e6969a6784c8)
