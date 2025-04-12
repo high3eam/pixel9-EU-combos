@@ -1,4 +1,7 @@
 
+## v33
+- Added 32A-7A-3C_n78A-n1A combos for DTAG
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=059cb8b3-cae3-46ec-a80f-1b8de1fc6d7c](https://uecaps.hennes.xyz/view/multi/?id=059cb8b3-cae3-46ec-a80f-1b8de1fc6d7c)
 ## v32
 - Removed incompatible combos with 20_n1 and 20_n78 EN-DC UL (to prevent RLF)
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=5d69e423-612c-4b33-b542-4c01d46af65c](https://uecaps.hennes.xyz/view/multi/?id=5d69e423-612c-4b33-b542-4c01d46af65c)
