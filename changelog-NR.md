@@ -1,4 +1,7 @@
 
+## v34
+- Added 32A-8A combos with n78-n1 EN-DC NR-CA
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=c5f61dd3-0a03-4470-b795-226c74b20900](https://uecaps.hennes.xyz/view/multi/?id=c5f61dd3-0a03-4470-b795-226c74b20900)
 ## v33
 - Added 32A-7A-3C_n78A-n1A combos for DTAG
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=059cb8b3-cae3-46ec-a80f-1b8de1fc6d7c](https://uecaps.hennes.xyz/view/multi/?id=059cb8b3-cae3-46ec-a80f-1b8de1fc6d7c)
