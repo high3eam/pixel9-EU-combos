@@ -1,4 +1,7 @@
 
+## v36
+- Added n78-n78-n28 3CC NR-CA combos in EN-DC
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=96a0568b-500b-4225-8874-1ca9e1bc393d](https://uecaps.hennes.xyz/view/multi/?id=96a0568b-500b-4225-8874-1ca9e1bc393d)
 ## v35
 - Added n78C-n28 3CC NR-CA combos in EN-DC
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=86b2b418-5452-402f-9f29-a33007dc7e4d](https://uecaps.hennes.xyz/view/multi/?id=86b2b418-5452-402f-9f29-a33007dc7e4d)
