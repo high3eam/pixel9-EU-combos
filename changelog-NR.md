@@ -1,4 +1,7 @@
 
+## v37
+- Added n40-n78C and n40-n78-n78 EN-DC combos for DK networks
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=4ee8b250-9bb0-4fe0-9c5e-934fdbca9961](https://uecaps.hennes.xyz/view/multi/?id=4ee8b250-9bb0-4fe0-9c5e-934fdbca9961)
 ## v36
 - Added n78-n78-n28 3CC NR-CA combos in EN-DC
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=96a0568b-500b-4225-8874-1ca9e1bc393d](https://uecaps.hennes.xyz/view/multi/?id=96a0568b-500b-4225-8874-1ca9e1bc393d)
