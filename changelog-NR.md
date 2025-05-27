@@ -1,4 +1,7 @@
 
+## v38
+- Added various German carrier 3xNRCA NSA combos
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=10826629-fe17-499b-9ba8-729a431ee81f](https://uecaps.hennes.xyz/view/multi/?id=10826629-fe17-499b-9ba8-729a431ee81f)
 ## v37
 - Added n40-n78C and n40-n78-n78 EN-DC combos for DK networks
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=4ee8b250-9bb0-4fe0-9c5e-934fdbca9961](https://uecaps.hennes.xyz/view/multi/?id=4ee8b250-9bb0-4fe0-9c5e-934fdbca9961)
