@@ -1,4 +1,7 @@
 
+## v39
+- Testing n28 UL MIMO (single band combo for now)
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=f0d5c22a-f762-41ff-b053-09ccfc26d03f](https://uecaps.hennes.xyz/view/multi/?id=f0d5c22a-f762-41ff-b053-09ccfc26d03f)
 ## v38
 - Added various German carrier 3xNRCA NSA combos
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=10826629-fe17-499b-9ba8-729a431ee81f](https://uecaps.hennes.xyz/view/multi/?id=10826629-fe17-499b-9ba8-729a431ee81f)
