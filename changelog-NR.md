@@ -1,4 +1,7 @@
 
+## v40
+- Revert n28 UL MIMO (kinda works on DTAG, but DL/UL thput performance gets a huge hit and BLER becomes massive)
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=1d3a64d5-4588-4000-8e0a-e15ed70889ac](https://uecaps.hennes.xyz/view/multi/?id=1d3a64d5-4588-4000-8e0a-e15ed70889ac)
 ## v39
 - Testing n28 UL MIMO (single band combo for now)
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=f0d5c22a-f762-41ff-b053-09ccfc26d03f](https://uecaps.hennes.xyz/view/multi/?id=f0d5c22a-f762-41ff-b053-09ccfc26d03f)
