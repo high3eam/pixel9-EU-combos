@@ -1,4 +1,7 @@
 
+## v41
+- Add 3xNR-CA NSA combos with 3xLTE-CA for Telekom & Vodafone
+- All included combos: [https://uecaps.hennes.xyz/view/multi/?id=4d071d16-0a93-491d-9b04-1f4ee503dc0e](https://uecaps.hennes.xyz/view/multi/?id=4d071d16-0a93-491d-9b04-1f4ee503dc0e)
 ## v40
 - Revert n28 UL MIMO (kinda works on DTAG, but DL/UL thput performance gets a huge hit and BLER becomes massive)
 - All included combos: [https://uecaps.hennes.xyz/view/multi/?id=1d3a64d5-4588-4000-8e0a-e15ed70889ac](https://uecaps.hennes.xyz/view/multi/?id=1d3a64d5-4588-4000-8e0a-e15ed70889ac)
