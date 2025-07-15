@@ -1,6 +1,6 @@
 ## [Check Releases for Magisk modules](https://github.com/high3eam/pixel9-EU-combos/releases)
 ### Module includes a built-in updater
-## Edit combos yourself
+## Edit combos yourself (or even better, use the binarypb editor here: [https://nxij.github.io/pixel-pb/](https://nxij.github.io/pixel-pb/), thanks to [@NXij](https://github.com/NXij))
 - Download [`protoc`](https://github.com/protocolbuffers/protobuf/releases) as well as the ShannonUeCap `.proto template` files from this repo.
 - Then use protoc to decode the protobuf binary file.
 For NR combos, use:
